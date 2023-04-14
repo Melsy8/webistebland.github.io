@@ -1,0 +1,495 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'popins';
+}
+
+
+/* bg home */
+
+.bg {
+    background-image: url(img/home/bb.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+}
+
+
+/* akhir bg home */
+
+
+/* bggal */
+
+.bggal {
+    background-image: url(img/GALLERY/Gallery.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+}
+
+
+/* akhirbggal */
+
+
+/* font */
+
+@font-face {
+    font-family: 'popins';
+    src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'viga';
+    src: url(font/Viga-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'rounded';
+    src: url(font/ARLRDBD.TTF)
+}
+
+
+/* akhir font */
+
+
+/* umum */
+
+.row-x {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-left: -2.5em;
+}
+
+.row-x>* {
+    box-sizing: border-box;
+    padding: 0 0 0 2.5em;
+}
+
+.row-x>.col-6 {
+    width: 50%;
+}
+
+.row-x>.col-4 {
+    width: 33.33333%;
+}
+
+.row-x>.col-3 {
+    width: 25%;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.viga {
+    font-family: 'viga';
+}
+
+.rounded {
+    font-family: 'rounded';
+}
+
+.logo {
+    width: 100px;
+    margin-top: 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: #55aeab;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'rounded';
+    width: 100px;
+    font-size: 17px;
+}
+
+.btnorder {
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: #55aeab;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'rounded';
+    width: 150px;
+    font-size: 20px;
+    float: right;
+}
+
+.shadow {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8)
+}
+
+.colordasar {
+    color: #359e9b;
+}
+
+.ikon {
+    width: 20px;
+}
+
+
+/* akhir umum */
+
+
+/* container */
+
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+
+/* akhir container */
+
+
+/* Header */
+
+.header {
+    margin: auto;
+}
+
+.header ul {
+    margin: auto;
+    float: right;
+}
+
+.header li {
+    display: inline-block;
+    padding: 0px 30px;
+    margin-top: 20px;
+}
+
+.header a {
+    text-align: center;
+    text-decoration: none;
+    /* color: #3a8f8d; */
+    color: white;
+    font-size: 20px;
+    font-family: 'rounded';
+    margin-top: 20px;
+}
+
+
+/* home */
+
+.mtoptouratas {
+    margin-top: 180px;
+}
+
+.mtoptour {
+    margin-top: -10px;
+}
+
+.awal h1 {
+    font-family: 'viga';
+    font-size: 50px;
+    margin-top: 220px;
+    color: #3a8f8d;
+}
+
+.awal h3 {
+    margin-top: -50px;
+    text-decoration: underline solid #666666;
+    color: #666666;
+}
+
+.awal p {
+    margin-top: -15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.tourism {
+    margin-top: -50px;
+    font-size: 40px;
+    color: #3a8f8d;
+}
+
+.jarakatas {
+    margin-top: -40px;
+}
+
+.paddingisi {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.paddingisi p {
+    font-size: 15px !important;
+}
+
+.gambarwisata {
+    width: 100%;
+    height: 200px;
+}
+
+.mtbudaya {
+    margin-top: 150px;
+}
+
+.gambarbudaya {
+    width: 80%;
+}
+
+.mtbudaya {
+    margin-top: 100px;
+}
+
+.mttext {
+    margin-top: -40px;
+}
+
+.mtcol {
+    margin-top: 50px;
+}
+
+.mtp {
+    margin-top: 40px;
+}
+
+.text h2 {
+    color: #3a8f8d;
+    font-size: 33px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+
+/* footer */
+
+.marginfooterkiri {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.marginfooterkanan {
+    /* margin: auto; */
+    margin-right: 80px;
+    font-size: 21px
+}
+
+.garis {
+    border-top: 2px solid #d1cdcd;
+    border-bottom: 2px solid #d1cdcd;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ubah li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.textcontact {
+    margin-left: -40px;
+}
+
+.contact {
+    margin-left: -70px;
+}
+
+.footerbot {
+    background-image: url(img/footer.png);
+    clear: both;
+    background-size: cover;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+
+/* akhir footer */
+
+
+/* Login */
+
+.top {
+    margin-top: 50px;
+}
+
+.ukuranlog {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.boxtext {
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #55aeab;
+    margin-left: 80px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.login {
+    font-size: 55px;
+    margin-top: 120px;
+    color: #359e9b;
+    margin-left: 50px;
+}
+
+.mtlog {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.mtbox {
+    margin-top: 50px;
+}
+
+.kiri {
+    justify-content: center;
+}
+
+.gambarbawah {
+    clear: both;
+    position: fixed;
+    margin-bottom: -5px;
+    bottom: 0;
+    left: 0
+}
+
+
+/* Akhir Login */
+
+
+/* order */
+
+.headerr {
+    margin: auto;
+}
+
+.headerr ul {
+    float: right;
+    margin: auto;
+}
+
+.headerr li {
+    padding: 0px 30px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.headerr li:hover a {
+    background-color: #359e9b;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.headerr a {
+    color: #359e9b;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'rounded'
+}
+
+.order {
+    color: #359e9b;
+    font-size: 40px;
+}
+
+.containerorder {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.box {
+    width: 100%;
+    padding: 8px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1.5px solid #359e9b;
+}
+
+.semua {
+    width: 500px;
+}
+
+.semua input {
+    font-size: 17px;
+}
+
+.textorder {
+    font-size: 20px;
+    color: #359e9b;
+    font-weight: bold;
+}
+
+.ukback {
+    width: 150px;
+    margin-left: 130px;
+    margin-top: -38.5px;
+}
+
+.atur {
+    text-align: center;
+}
+
+.atur h1 {
+    margin-top: 100px;
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.atur h3 {
+    color: #e0e0e0;
+    font-size: 23px;
+    margin-top: -30px;
+}
+
+.aturantext {
+    margin-top: 200px;
+}
+
+.aturantext h1 {
+    font-size: 30px;
+}
+
+.gambar img {
+    width: 480px;
+    height: 290px;
+}
+
+.aturangambar {
+    margin-top: 170px;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* akhir order */
